@@ -1,0 +1,4 @@
+>>> type(sub_posts)
+<class 'dict'>
+>>> sub_posts
+{'Title': 'Script to set timezone on 365 mailboxes where it is NOT set?', 'ID': 'giak0n', 'Stickied': False, 'Score': 2, 'UpvoteR': 0.76, 'No_com': 2, 'Url': 'https://www.reddit.com/r/PowerShell/comments/giak0n/script_to_set_timezone_on_365_mailboxes_where_it/', 'Link': '/r/PowerShell/comments/giak0n/script_to_set_timezone_on_365_mailboxes_where_it/', 'Text': 'I\'m trying to find a way to automate setting the timezone for all 365 Exchange accounts. I am able to do so, but I only want to set it on mailboxes where it is not currently set. Doing it on all mailboxes throws a message in Outlook that the admin has made a change that requires them to restart Outlook. Is there a filter/where statement I can throw in this line to only find mailboxes where it\'s not set?\n\n    Get-mailbox -ResultSize unlimited | Set-MailboxRegionalConfiguration -Language 1033 -TimeZone "Eastern Standard Time" -LocalizeDefaultFolderName'}
